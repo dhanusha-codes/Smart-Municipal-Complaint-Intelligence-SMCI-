@@ -186,6 +186,3 @@ It provides automated initial road defect classification, potential duplicate id
 - Include additional factors in priority assessment.
 - Improve real-time geographical monitoring.
 - Explore cloud deployment and mobile application integration.
-## Acknowledgement
-
-We thank our project supervisor, faculty members and SRM University–AP for their guidance and support throughout the development of this project.
