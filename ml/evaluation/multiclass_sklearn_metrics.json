@@ -1,0 +1,93 @@
+{
+  "model": "svm_rbf",
+  "categories": [
+    "broken_edges",
+    "construction_zones",
+    "cracks",
+    "open_manholes",
+    "potholes",
+    "waterlogged_roads"
+  ],
+  "accuracy": 0.7723,
+  "macro_f1": 0.6658,
+  "val_metrics": {
+    "accuracy": 0.7723,
+    "macro_f1": 0.6969
+  },
+  "cv_results": {
+    "random_forest": {
+      "mean_f1_macro": 0.5873,
+      "std": 0.0412
+    },
+    "svm_rbf": {
+      "mean_f1_macro": 0.6056,
+      "std": 0.0471
+    },
+    "gradient_boosting": {
+      "mean_f1_macro": 0.5618,
+      "std": 0.0436
+    },
+    "logistic_regression": {
+      "mean_f1_macro": 0.5402,
+      "std": 0.0563
+    }
+  },
+  "confusion_matrix": [
+    [
+      1,
+      1,
+      4,
+      2,
+      0,
+      2
+    ],
+    [
+      0,
+      15,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      17,
+      0,
+      1,
+      3
+    ],
+    [
+      2,
+      0,
+      0,
+      4,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      30,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      2,
+      11
+    ]
+  ],
+  "dataset_counts": {
+    "broken_edges": 68,
+    "construction_zones": 102,
+    "cracks": 147,
+    "open_manholes": 59,
+    "potholes": 200,
+    "waterlogged_roads": 95
+  }
+}

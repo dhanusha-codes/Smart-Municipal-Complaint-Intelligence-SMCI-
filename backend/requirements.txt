@@ -1,0 +1,13 @@
+Flask==3.1.0
+flask-cors==6.0.0
+SQLAlchemy==2.0.36
+Pillow==10.4.0
+numpy==1.26.4
+scipy==1.13.1
+requests==2.32.3
+# Optional - install manually for ML features:
+# torch
+# torchvision
+# opencv-python-headless
+# imagehash
+

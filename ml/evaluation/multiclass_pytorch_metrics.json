@@ -1,0 +1,94 @@
+{
+  "accuracy": 0.7723,
+  "macro_f1": 0.7187,
+  "weighted_f1": 0.7659,
+  "best_val_macro_f1": 0.7732,
+  "per_class": {
+    "broken_edges": {
+      "precision": 0.3636,
+      "recall": 0.4,
+      "f1": 0.381,
+      "support": 10
+    },
+    "construction_zones": {
+      "precision": 0.8571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "support": 16
+    },
+    "cracks": {
+      "precision": 0.8571,
+      "recall": 0.8182,
+      "f1": 0.8372,
+      "support": 22
+    },
+    "open_manholes": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "support": 9
+    },
+    "potholes": {
+      "precision": 0.7105,
+      "recall": 0.9,
+      "f1": 0.7941,
+      "support": 30
+    },
+    "waterlogged_roads": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 14
+    }
+  },
+  "confusion_matrix": [
+    [
+      4,
+      2,
+      2,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      12,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      18,
+      0,
+      3,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      3,
+      4,
+      0
+    ],
+    [
+      2,
+      0,
+      1,
+      0,
+      27,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      14
+    ]
+  ]
+}
